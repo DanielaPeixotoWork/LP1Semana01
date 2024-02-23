@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 
 namespace VariousTypes
 {
@@ -10,6 +11,10 @@ namespace VariousTypes
             Console.WriteLine(inteiro);
             char character = '\u2764';
             Console.WriteLine(character);
+            float reais = 6f;
+            Console.WriteLine(reais);
+            bool number = true;
+            Console.WriteLine(number);
         }
     }
 }
