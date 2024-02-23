@@ -8,6 +8,8 @@ namespace VariousTypes
         {
             int inteiro = 10;
             Console.WriteLine(inteiro);
+            char character = '\u2764';
+            Console.WriteLine(character);
         }
     }
 }
