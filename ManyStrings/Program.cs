@@ -27,6 +27,15 @@ namespace ManyStrings
             Console.WriteLine(M2);
             Console.WriteLine(interp1);
             Console.WriteLine(interp2);
+
+            double xx = 1.23456;
+            int ii = 19;
+
+            Console.WriteLine($"Número real com duas casas decimais: {xx:F2}");
+            Console.WriteLine($"Percentagem com uma casa decimal: {xx:P1}");
+            Console.WriteLine($"Hexadecimal: 0x{ii:X}");
+            Console.WriteLine($"Moeda: {ii:C}");
+
         }
     }
 }
