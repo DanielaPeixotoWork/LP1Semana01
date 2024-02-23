@@ -7,8 +7,8 @@ namespace ManyStrings
         static void Main(string[] args)
         {
             String N1 = "Helloooo!!";
-            String N2 = "This is a star \u2606 !"
-            String N3 = "ol\á e\ a\deu\s"
+            String N2 = "This is a star \u2606 !";
+            String N3 = "ol\\á e\\ a\\deu\\s";
         }
     }
 }
