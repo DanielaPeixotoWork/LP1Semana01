@@ -7,7 +7,7 @@ namespace VariousTypes
         static void Main(string[] args)
         {
             int inteiro = 10;
-            Console.WriteLine($"int: {inteiro}");
+            Console.WriteLine(inteiro);
         }
     }
 }
