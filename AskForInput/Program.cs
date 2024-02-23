@@ -15,7 +15,8 @@ namespace AskForInput
             string str2 = Console.ReadLine();
             float f = float .Parse( str2 );
 
-            
+            float resultado = f+i;
+            Console.Write($"O resultado é:{resultado}");
 
 
  
